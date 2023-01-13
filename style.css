@@ -405,10 +405,10 @@ body {
   width: 134px;
   height: 39px;
   cursor: pointer;
-  font-family: "Urbanist";
+  font-family: "poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   margin-left: 180px;
 }
 .expense-summary-container {
