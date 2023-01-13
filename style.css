@@ -365,10 +365,11 @@ body {
   gap: 10px;
   align-items: center;
 }
-/* .setting-icon {
-    width: 46px;
-    color: #1e2772;
-  } */
+.setting-icon {
+  width: 46px;
+  color: #1e2772;
+  cursor: pointer;
+}
 
 .box-info {
   display: grid;
@@ -393,7 +394,7 @@ body {
 
 .chart-data {
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 .export-details-button {
@@ -557,7 +558,7 @@ tr:nth-child(even) {
 }
 .pagination {
   display: inline-block;
-  margin-left: 700px;
+  margin-left: 400px;
 }
 
 .pagination a {
