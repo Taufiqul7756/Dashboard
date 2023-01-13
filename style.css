@@ -148,3 +148,58 @@ body {
 .view-button {
   padding: 10px 24px;
 }
+
+/* status card */
+
+.Status-card {
+  display: flex;
+  /* width: 289px; */
+  height: 251px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.06);
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  justify-content: space-around;
+}
+.card-top {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.card-middle {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 4px 16px 4px;
+  border-bottom: 1px solid #e6e6e6;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  align-items: center;
+}
+
+.btn-view-all {
+  background: #1e2772;
+  color: white;
+  border-radius: 12px;
+  padding: 1px 20px 1px 20px;
+  width: 113px;
+  height: 39px;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+}
+.card-bottom {
+  display: flex;
+}
+.card-bottom div img {
+  width: 30px;
+  height: 30px;
+  margin: 0 -4px;
+}
