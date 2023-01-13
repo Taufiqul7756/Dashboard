@@ -28,7 +28,6 @@ var i;
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function () {
     console.log("clicked");
-    // this.classList.toggle("active");
     var dropdownContent = this.nextElementSibling;
     if (dropdownContent.style.display === "block") {
       dropdownContent.style.display = "none";
@@ -69,15 +68,5 @@ window.addEventListener("resize", function () {
   if (this.innerWidth > 576) {
     searchButtonIcon.classList.replace("bx-x", "bx-search");
     searchForm.classList.remove("show");
-  }
-});
-
-const switchMode = document.getElementById("switch-mode");
-
-switchMode.addEventListener("change", function () {
-  if (this.checked) {
-    document.body.classList.add("dark");
-  } else {
-    document.body.classList.remove("dark");
   }
 });
